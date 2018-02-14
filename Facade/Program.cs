@@ -10,6 +10,14 @@ namespace Facade
     {
         static void Main(string[] args)
         {
+            PC pc = new PC();
+            pc.GetInfo();
+            
+            pc.OnPC();
+            pc.GetInfo();
+
+            pc.OffPC();
+            pc.GetInfo();
         }
     }
 }

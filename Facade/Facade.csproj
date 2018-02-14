@@ -42,8 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Subsystems\OpticalDiskDrive.cs" />
+    <Compile Include="Facade\PC.cs" />
+    <Compile Include="Subsystems\PowerSupply.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Subsystems\RAM.cs" />
+    <Compile Include="Subsystems\Sensors.cs" />
+    <Compile Include="Subsystems\VideoCard.cs" />
+    <Compile Include="Subsystems\Winchester.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
